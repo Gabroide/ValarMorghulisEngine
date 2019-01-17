@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source\ComponentMaterial.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentMesh.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentTransform.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ComponentCamera.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockConfig.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockConsole.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockHierarchy.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockInspector.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockScene.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockTime.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Dock.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockAbout.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockCamera.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Application.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleProgram.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleRender.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleScene.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleTextures.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleTime.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleWindow.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleCamera.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleDebugDraw.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleEditor.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleInput.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\log.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockLight.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleFileSystem.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MaterialImporter.cpp">
+      <Filter>Utils\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ModuleLibrary.cpp">
+      <Filter>Modules</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MeshImporter.cpp">
+      <Filter>Utils\Importers</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockAssets.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Config.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DockQuad.cpp">
+      <Filter>Docks</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KuadTree.cpp">
+      <Filter>Utils\QuadTree</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ComponentMaterial.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentMesh.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentTransform.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ComponentCamera.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockConfig.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockConsole.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockHierarchy.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockInspector.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockScene.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockTime.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Dock.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockAbout.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockCamera.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Application.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleProgram.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleRender.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleScene.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleTextures.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleTime.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleWindow.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Module.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleCamera.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleDebugDraw.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleEditor.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleInput.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\par_shapes.h">
+      <Filter>Utils\DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\debugdraw.h">
+      <Filter>Utils\DebugDraw</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Globals.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Point.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockLight.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleFileSystem.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MaterialImporter.h">
+      <Filter>Utils\Importers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ModuleLibrary.h">
+      <Filter>Modules</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MeshImporter.h">
+      <Filter>Utils\Importers</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockAssets.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Config.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DockQuad.h">
+      <Filter>Docks</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KuadTree.h">
+      <Filter>Utils\QuadTree</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{c7205705-becf-4436-a37b-c020ede46478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modules">
+      <UniqueIdentifier>{52306c44-b5b8-4038-954e-fbb630c149ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{c33bf54a-6609-47fa-b804-cb8f13b7f556}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Shaders">
+      <UniqueIdentifier>{5c71df1d-1bbc-45f5-a292-79b5cbb5e0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Docks">
+      <UniqueIdentifier>{52fb40a9-dfcc-40c6-8bfe-1cbd33ca9118}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{2ee2a73a-ae0f-445f-93cb-59309d4ed58b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{9dd4ad34-b8b3-48bb-9194-efa97c36bb87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\DebugDraw">
+      <UniqueIdentifier>{e601ccb2-a421-4c4d-b3b0-345d5f013111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Importers">
+      <UniqueIdentifier>{8f78d95d-9e8d-4044-a5a5-76f6922419f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\QuadTree">
+      <UniqueIdentifier>{f01b90de-90cf-4b9f-8ed2-2bfb1f03c04d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game\Shaders\texture.fs">
+      <Filter>Utils\Shaders</Filter>
+    </None>
+    <None Include="Game\Shaders\texture.vs">
+      <Filter>Utils\Shaders</Filter>
+    </None>
+    <None Include="Game\Shaders\blinn.vs">
+      <Filter>Utils\Shaders</Filter>
+    </None>
+    <None Include="Game\Shaders\blinn.fs">
+      <Filter>Utils\Shaders</Filter>
+    </None>
+    <None Include="Game\Shaders\color.fs">
+      <Filter>Utils\Shaders</Filter>
+    </None>
+    <None Include="Game\Shaders\color.vs">
+      <Filter>Utils\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
